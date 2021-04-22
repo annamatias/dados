@@ -1,4 +1,6 @@
 # Dados
+Essa branch em especifico, é tudo que foi desenvolvido e está homologado corretamente. Muitas coisas que está em desenvolvimento. podemos ver pela branch "fix/develop", após concluído é aberto uma PR para develop. Isso com o fundamento de uma ótima organização.
+
 Repositório com:
   - Definições, práticas e como fazer
   - Exercícios
