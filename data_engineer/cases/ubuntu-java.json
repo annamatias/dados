@@ -1,0 +1,23 @@
+{
+    "builders": [{
+        "type": "amazon-ebs",
+        "access_key": "",
+        "secret_key": "",
+        "region": "us-east-1b",
+        "source_ami": "i-00cee8023e0fd5ca8",
+        "instance_type": "t2.micro",
+        "ssh_username": "ubuntu",
+        "ami_name": "ubuntu-openjdk8-{{timestamp}}"
+    }],
+    "provisioners":
+    [
+        {
+            "type": "shell",
+            "inline": ["sleep 30"]
+        },
+        {
+            "type": "shell",
+            "inline": ["sudo apt-get update && sudo apt-get isntall openjdk -y"]
+        }
+    ]
+}
