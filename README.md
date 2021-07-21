@@ -1,17 +1,3 @@
 # Dados
-Repositório com:
-  - Definições, práticas e como fazer
-  - Exercícios
-  - Portfolio em Engenharia de Dados e Ciencia de Dados.
- 
- #Assuntos abordados e ferramentas utilizadas para Engenharia de Dados:
-  - Hadoop
-  - HDFS
-  - MapReduce
-  - Yarn
-  - Data Lake
-  - Cloudera e Hortonworks
-  - Hive
-  - Sqoop
-  - Hbase
-  - Spark e Pyspark
+Portfolio em Engenharia de Dados
+- Utilizando o Data Pipeline Batch e Stream, para extrair dados da API do Twitter juntamente com o Apache Airflow para orquestração de tarefas, e Apache Spark para processamento de dados e exportação de dados para o Data Lake.
